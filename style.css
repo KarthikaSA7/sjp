@@ -1,0 +1,685 @@
+* {
+    font-family: "Merriweather", serif;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-size: 54px;
+    font-weight: 300;
+}
+h2 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #1c3157;
+}
+h3 {
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: 400;
+}
+h4 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+}
+p {
+    font-size: 20px;
+    font-weight: 300;
+}
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+.section {
+    margin-top: 110px;
+}
+.header-image {
+    background-image: linear-gradient(177deg, rgba(94,127,157,0.1) 1%, rgba(85,152,194,0.6) 90%), url('../images/head-back.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 205px;
+}
+.logo img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px;
+    background-color: #1c3157;
+}
+.info {
+    margin: 0 auto;
+    margin-top: 150px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 65px;
+}
+.bold {
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.venue {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    border-top: 2px solid #5e7f9d;
+    border-bottom: 2px solid #5e7f9d;
+    padding: 14px 24px 14px 24px;
+    width: 800px;
+}
+.detail {
+    display: flex;
+}
+.border-dot {
+    border-radius: 50px;
+    border: dotted 4px #1d8cca;
+    border-bottom-color: transparent ;
+    border-right-color: transparent;
+    margin-right: 4px;
+}
+.detail-logo {
+    margin: 4px;
+    border-radius: 50%;
+    background-color: #1d8cca;
+    padding: 12px;
+}
+.detail p {
+    position: relative;
+    top: 20px;
+}
+.reg-btn {
+    margin: 0 auto;
+    position: relative;
+    background-color: #f26341;
+    border-radius: 50px;
+    color: #1c3157;
+    font-size: 22px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    width: 305px;
+    padding: 20px 5px 20px 20px;
+}
+.arrow {
+    width: 45px;
+    position: absolute;
+    left: 250px;
+    bottom: 11px;
+    z-index: 1;
+}
+.arrow:hover {
+    left: 255px;
+}
+.circle {
+    position: absolute;
+    left: 270px;
+    bottom: 10px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.header {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 55px;
+}
+.line {
+    margin: 0 auto;
+    width: 65px;
+    height: 5px;
+    border-radius: 50px;
+    background-color: #f26341;
+    margin-top: 28px;
+}
+.body {
+    display: flex;
+    column-gap: 80px;
+}
+.impact .header {
+    width: 50%;
+}
+.display {
+    display: flex;
+    column-gap: 10px;
+    margin-bottom: 5px;
+}
+.display img {
+    width: 10px;
+}
+.gallery-left , .gallery-right{
+    width: 430px;
+    height: auto;
+}
+.gallery-left img {
+    border-radius: 10px;
+    width: 100%;
+    height: 200px;
+}
+.para {
+    width: 610px;
+}
+.blank {
+    background-color: #1daaf1;
+    border-radius: 10px;
+    width: 210px;
+    height: 200px;
+}
+.para p {
+    margin-bottom: 25px;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+.gallery-right {
+    display: flex;
+    column-gap: 10px;
+}
+.gallery-right img {
+    width: 100%;
+    border-radius: 10px;
+}
+.display-2 {
+    width: 210px;
+}
+.display-2 img {
+    height: 170px;
+}
+.gallery-right .blank {
+    width: 210px;
+    height: 120px;
+    margin-top: 5px;
+}
+.spl-text {
+    font-family: "Roboto", sans-serif;
+    color: #ff0000;
+}
+.video-card .section {
+    padding-bottom: 100px;
+}
+.video-card .container {
+    width: 1250px;
+    position: relative;
+}
+.video-card .spl-text {
+    font-family: "Merriweather", serif;
+}
+.video-info {
+    background-color: #1daaf1;
+    text-align: center;
+    border-radius: 10px;
+    height: 590px;
+    padding: 67px 220px 0px 220px;
+}
+.video {
+    position: relative;
+    margin: 0 auto;
+    width: 860px;
+}
+.youtube-player {
+    position: absolute;
+    margin: 0 auto;
+    top: -440px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 2.5px rgba(6, 0, 0, 0.407);
+    border-radius: 10px;
+}
+.thumbnail {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 500px;
+}
+.youtube-player a {
+    position: absolute;
+    margin: 0 auto;
+    top: 0px;
+    bottom: 10px;
+}
+.you-play {
+    width: 97%;
+    height: 515px;
+}
+.join-us .para {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+.cards {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 40px;
+    justify-content: center;
+    column-gap: 30px;
+    flex-wrap: wrap;
+}
+.card {
+    position: relative;
+    width: 350px;
+    height: 390px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.card-head {
+    position: relative;
+    height: 230px;
+    border-radius: 10px;
+}
+.card-body {
+    background-color: #1daaf1;
+    text-align: center;
+    height: 120px;
+    border-radius: 0 0 10px 10px;
+    padding: 20px;
+    color: #ffffff;
+}
+.card-body h4 {
+    margin-bottom: 16px;
+}
+.card-body p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #d0e7f9;
+    font-family: "Roboto", sans-serif;
+}
+.description {
+    display: none;
+}
+.card-circle {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 15px;
+    left: 30px;
+    border-radius: 50%;
+    background-color: #f36341;
+}
+.card-arrow img{
+    position: absolute;
+    top: 13px;
+    left: 44px;
+    width: 35px;
+}
+.card-img {
+    width: 350px;
+    height: 230px;
+    border-radius: 10px 10px 0 0;
+}
+.card:hover {
+    .card-img {
+        display: none;
+    }
+    .card-body {
+        z-index: -1;
+        height: 290px;
+        padding-top: 78px;
+        position: absolute;
+        border-radius: 10px;
+        top: 0;
+    }
+    .description {
+        display:block;
+    }
+    .card-circle {
+        left: 35px;
+    } 
+    .card-arrow img{
+        transform: rotate(180deg);
+        left: 17px
+    } 
+}
+.register .container {
+    width: 1250px;
+    position: relative;
+}
+.register .section {
+    background-color: #e8eaee;
+    border-radius: 10px;
+}
+.register .para {
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+}
+.asia-invest {
+    padding: 85px;
+}
+.register-form {
+    display: flex;
+    column-gap: 54px;
+    margin-top: 65px;
+    justify-content: center;
+}
+.entry {
+    width: 100%;
+}
+.form {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px 45px 45px 45px;
+}
+.form input {
+    width: 100%;
+    border: none;
+    padding: 34px 0 10px 0;
+    border-bottom: 1px solid #d2d6dd;
+}
+.reg-gallery {
+    width: 500px;
+    height: auto;
+}
+.reg-gallery img {
+    height: 200px;
+    border-radius: 10px;
+    width: 100%;
+}
+.fig-6 img {
+    height: 250px;
+}
+.reg-address {
+    display: flex;
+    column-gap: 10px;
+    margin-top: 5px;
+}
+.reg-address .blank {
+    width: 210px;
+    height: 160px;
+    padding: 20px;
+    color: #ffffff;
+}
+.reg-address .blank p {
+    position: relative;
+    top: 60px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.form .reg-btn {
+    margin: 0;
+    margin-top: 30px;
+}
+.form input::placeholder {
+    font-family: "Roboto", sans-serif;
+    color: #d2d6dd;
+}
+.disclaimer .section {
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+.disclaimer p {
+    color: #ff5858;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+@media(max-width: 1350px) {
+    .video-card .container {
+        width: 90%;
+    }
+    .register .container {
+        width: 90%;
+    }
+    .register-form {
+        column-gap: 40px;
+    }
+    .asia-invest {
+        padding: 70px;
+    }
+    .video {
+        width: 80%;
+        height: auto;
+    }
+    .register .para {
+        width: 90%;
+    }
+} 
+@media(max-width: 1200px) {
+    .container {
+        width: 90%;
+    }
+    .gallery-right .blank {
+        width: 100%;
+    }
+    .long {
+        height: 300px;
+    }
+}
+@media(max-width: 1110px) {
+    .body {
+        column-gap: 40px;
+    }
+    .para {
+        width: 80%;
+    }
+}
+@media(max-width: 1079px) {
+    .header-image {
+        background-size: 100% 100%;
+    }
+    .video-info {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+}
+@media(max-width: 992px) {
+    .body {
+        flex-direction: column;
+    }
+    .gallery-left {
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    .gallery-right {
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    .para {
+        margin: 0 auto;
+        width: 90%;
+    }
+    .register-form {
+        flex-wrap: wrap;
+    }
+    .reg-gallery {
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    .reg-address img {
+        width: 250px;
+    }
+}
+@media(max-width: 956px ) {
+    .venue {
+        flex-direction: column;
+        width: fit-content;
+        margin: 0 auto;
+    }
+    .info {
+        margin-top: 90px;
+        width: 90%;
+    }
+    .you-play {
+        width: 95%;
+    }
+    .header {
+        width: 90%;
+    }
+    .impact .header {
+        width: 90%;
+    }
+}
+@media(max-width: 768px) {
+    .header-image {
+        padding-bottom: 170px;
+    }
+    .reg-btn {
+        width: 250px;
+    }
+    .arrow {
+        left: 195px;
+    }
+    .circle {
+        left: 215px;
+    }
+    .arrow:hover {
+        left: 200px;
+    }
+}
+@media(max-width: 737px){
+    .video-info {
+        height: 500px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 40px;
+    }
+    .youtube-player {
+        top: -350px;
+        padding: 10px;
+    }
+    .thumbnail, .you-play {
+        height: 400px;
+    }
+    .video-card .section {
+        padding-bottom: 50px;
+    }
+}
+@media(max-width: 674px) {
+    h3 {
+        font-size: 25px;
+    }
+    .gallery-left, .gallery-right, .reg-gallery {
+        width: 350px;
+    }
+    .blank {
+        width: 180px;
+        height: 150px;
+    }
+    .gallery-left img{
+        height: 150px;
+    }
+    .fig-6 img {
+        width: 350px;
+    }
+    .reg-gallery img {
+        height: 150px;
+    }
+    .reg-address img {
+        width: 170px;
+    }
+    .reg-gallery .blank p {
+        top: 10px;
+    }
+    .reg-gallery .blank {
+        width: 130px;
+        height: 110px;
+    }
+}
+@media(max-width: 635px) {
+    h2 {
+        font-size: 30px;
+    }
+    .header {
+        width: 100%;
+    }
+    .impact .header {
+        width: 100%;
+    }
+}
+@media(max-width: 576px) {
+    h1 {
+        font-size: 50px;
+    }
+    h3 {
+        font-size: 23px;
+    }
+    p {
+        font-size: 15px;
+    }
+    .video-info {
+        height: 430px;
+        padding: 30px;
+    }
+    .youtube-player {
+        top: -270px;
+    }
+    .thumbnail, .you-play {
+        height: 300px;
+    }
+    .reg-address .blank p {
+        font-size: 15px;
+    }
+    .entry {
+        margin: 0 auto;
+        width: 100%;
+    }
+    .asia-invest {
+        padding: 50px 30px 50px 30px;
+    }
+    .form {
+        padding: 20px;
+    }
+    .form .reg-btn {
+        margin: 0 auto;
+        margin-top: 30px;
+        width: 165px;
+        padding: 10px;
+        font-size: 13px;
+    }
+    .form .arrow {
+        width: 25px;
+        height: 25px;
+        top: 5px;
+        left: 138px;
+    }
+    .section {
+        margin-bottom: 90px;
+    }
+    .join-us .para {
+        width: 90%;
+    }
+    .form .circle {
+        width: 25px;
+        height: 25px;
+        top: 5px;
+        left: 150px;
+    }
+    .disclaimer p {
+        margin-top: 40px;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+}
+@media(max-width: 450px) {
+    .blank {
+        width: 150px;
+    }
+    .gallery-left , .gallery-right, .reg-gallery{
+        width: 250px;
+    }
+    .fig-6 img {
+        width: 250px;
+    }
+    .reg-address img {
+        width: 120px;
+    }
+    .card {
+        width: 90%;
+    }
+    .card-img {
+        width: 100%;
+    }
+}
+@media(max-width: 372px) {
+    h3 {
+        font-size: 22px;
+    }
+    .video-info {
+        height: 400px;
+        padding: 30px;
+    }
+    .youtube-player {
+        top: -250px;
+    }
+    .thumbnail, .you-play {
+        height: 280px;
+    }
+}
+
