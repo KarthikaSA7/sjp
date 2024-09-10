@@ -34,7 +34,7 @@ p {
     margin-top: 110px;
 }
 .header-image {
-    background-image: linear-gradient(177deg, rgba(94,127,157,0.1) 1%, rgba(85,152,194,0.6) 90%), url('images/head-back.png');
+    background-image: linear-gradient(177deg, rgba(94,127,157,0.1) 1%, rgba(85,152,194,0.6) 90%), url('./images/head-back.png');
     background-repeat: no-repeat;
     background-size: 100%;
     padding-bottom: 205px;
